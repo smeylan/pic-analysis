@@ -13,3 +13,5 @@ To download these:
 `wget cocosci.berkeley.edu/smeylan/pic/data.zip && unzip data.zip`
 
 To limit the analysis to morphologically simple words, you will need a copy of the CELEX2 corpus. Add a symlink with `ln -s` to the `data/` directory after decompressing.
+
+To check against the Piantadosi et al. (2011) results, download and unzip publicly avalable data from the [Colala website](https://colala.bcs.rochester.edu/data/PiantadosiTilyGibson2011/Google10L-1T/) and place them in `data/Google1T_Piantadosi`. To filter the words, you will also need to request the OPUS wordlists from the Colala lab and place them in `data/OPUS_Piantadosi`.
